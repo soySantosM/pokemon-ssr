@@ -2,7 +2,6 @@
   command = "npm run build"
   publish = "dist/pokemon-ssr/browser"
 
-[[plugins]]
-  package = "@netlify/angular-runtime"
-  [plugins.inputs]
-    node_compat = true
+[[edge_functions]]
+  path = "/*"
+  node_compat = true
