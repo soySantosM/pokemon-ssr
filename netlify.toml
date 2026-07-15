@@ -2,6 +2,5 @@
   command = "npm run build"
   publish = "dist/pokemon-ssr/browser"
 
-[[edge_functions]]
-  path = "/*"
+[edge_functions]
   node_compat = true
